@@ -6,7 +6,7 @@ public class day_38 {
         for (int i = 1; i < 100000; i++) {
             double x =Math.sqrt(i + 100);
             double y =Math.sqrt( i + 268);
-            int xx=(int)x;//强制类型转化
+            int xx=(int)x;//强制类型转化这里强制类型转换之后就可以解决了
             int yy=(int)y;//强制类型转化
             if (x*x==xx*xx&&y*y==yy*yy)
                 System.out.println(i);
